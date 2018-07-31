@@ -9,10 +9,8 @@ public class BasicCalculatorArgv{
             return;
         }
         double a = Double.parseDouble(args[0]);
-        System.out.println(a);
         char b= args[1].charAt(0);
         double c = Double.parseDouble(args[2]);
-        System.out.println(c);
         switch(b){
             case '+': {
                 output = a+c;
