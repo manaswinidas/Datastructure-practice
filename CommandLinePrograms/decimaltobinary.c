@@ -2,7 +2,7 @@
 void main(int argc, char *argv[]){
     int remainder,n,base=1;
     long int binary=0;
-    n=atol(argv[1]);
+    n=atoi(argv[1]);
     while(n>0){
         remainder=n%2;
         binary=binary+remainder*base;
